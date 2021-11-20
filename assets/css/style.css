@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ephesis', cursive;
+}
+
+/* 1st Nabvar */
+.navbar{
+    height: 72px;
+    width: 100vw;
+    background-color: darkgreen;
+     overflow: hidden;
+     
+   
+}
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+
+    .navbar{
+     height: 72px;
+        width: 100vw;
+        background-color: rgb(100, 0, 0);
+         overflow: hidden;
+         
+       
+    }
+
+    
+  }
+
+
+
+
+
+
+
+
+.navbar ul li{
+list-style: none;
+   font-size: 24px;
+   float: right;
+   padding: 20px;
+   
+ 
+   
+}
+.navbar ul li a{
+    color: whitesmoke;
+     margin-bottom: 17px;
+    text-decoration: none;
+}
+.fa-phone-square-alt{
+    color: whitesmoke;
+}
+
+/* 1st nabvar end */
+
+.box1{
+
+    height: 800px;
+    width: 100%;
+    background-color:whitesmoke;
+}
+
+.head{
+    height: 80px;
+    width: 100vw;
+    background-color: whitesmoke;
+    overflow: hidden;
+    /* border: 2px solid white; */
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    box-shadow: 5px 10px 3px 1px #888888;
+}
+
+.head img{
+    height: 70px;
+    width: 80px;
+    /* margin: 10px auto; */
+    padding: 5px;
+    margin-left: 116px;
+    float: left;
+}
+.head ul li{
+    text-decoration: none;float: right;
+    padding: 25px;
+    list-style: none;
+}
+
+.head ul li a{
+    font-family: 'Gemunu Libre', sans-serif;
+    color: black;
+}
+.box1{
+    background-image: url('../image/SHohoz-Ride.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position:  center;
+    
+} 
+
+.end{
+    height: 150px;
+    width: 100vw;
+    background-color: darkgreen;
+   
+}
+
+
+.end ul li{
+list-style: none;
+float: left;
+padding: 20px;
+
+}
+
+.end ul li h1{
+text-decoration: none;
+font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+    
+    /* direction: flex;
+    justify-content: space-between;
+    height: 40px; */
+
+    margin-left: 120px;
+   
+}
+
+.end ul li h6{
+    font-family: 'Gemunu Libre', sans-serif;
+     font-size: 15px;
+    color: whitesmoke;
+    margin-left: 120px;
+}
+.mother{
+    height: 800px;
+    width: 100vw;
+    background-color:whitesmoke;
+     /* overflow: hidden; */
+     margin-bottom:30px ;
+}
+.child{
+    height: 90px;
+    width: 100%;
+    /* border: 1px solid rgb(36, 11, 11); */
+    overflow: hidden;
+}
+.child h4{
+   text-align: center;
+
+   font-size: 38px;
+   font-weight:bolder;
+   
+   
+/* margin: 0px auto; */
+
+}
+.mydiv{
+    height: 500px;
+    width: 77%;
+    background-color:white;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+.c1{
+    height: 200px;
+    width: 300px;
+    
+    margin: 10px;
+}
+
+.c2{
+    height: 200px;
+    width: 300px;
+   
+    margin: 10px;
+}
+
+.c3{
+    height: 200px;
+    width: 300px;
+   
+    margin: 10px;
+}
+
+.c4{
+    height: 200px;
+    width: 300px;
+   
+    margin: 10px;
+}
+
+.c5{
+    height: 200px;
+    width: 300px;
+   
+    margin: 10px;
+}
+
+.c6{
+    height: 200px;
+    width: 300px;
+  
+    margin: 10px;
+}
+.c1 img{
+    height: 200px;
+    width: 300px;
+    opacity: 0.5;
+}
+.c1 img:hover {
+    opacity: 1.0;
+  }
+.c2 img{
+    height: 200px;
+    width: 300px;
+    opacity: 0.5;
+}
+.c2 img:hover {
+    opacity: 1.0;
+  }
+.c3 img{
+    height: 200px;
+    width: 300px;
+    opacity: 0.5;
+}
+
+.c3 img:hover {
+    opacity: 1.0;
+  }
+.c4 img{
+    height: 200px;
+    width: 300px;
+    opacity: 0.5;
+}
+
+.c4 img:hover {
+    opacity: 1.0;
+  }
+.c5 img{
+    height: 200px;
+    width: 300px;
+    opacity: 0.5;
+}
+.c5 img:hover {
+    opacity: 1.0;
+  }
+.c6 img{
+    height: 200px;
+    width: 300px;
+    opacity: 0.5;
+}
+.c6 img:hover {
+    opacity: 1.0;
+  }
+
+ 
+
+
+
+
+
+
